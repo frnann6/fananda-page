@@ -29,6 +29,20 @@
       padding: 15px 0 15px 0;
 }
 
+/* humburger mobile */
+@media (max-width: 991.98px) {
+    .navbar{
+          /* Warna transparan agar background bisa terlihat */
+  background: rgba(74, 74, 74, 0.5);
+  /* Efek blur pada latar belakang */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 15px 0 15px 0;
+    }
+}
+
+
 /* hero */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7)
