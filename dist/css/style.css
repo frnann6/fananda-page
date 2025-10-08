@@ -2,9 +2,37 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* navbar */
+.navbar i{
+    color: white;
+}
+
+.navbar a i:hover{
+    font-weight: bold;
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.navbar{
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolling-active{
+  /* Warna transparan agar background bisa terlihat */
+  background: rgba(74, 74, 74, 0.5);
+  /* Efek blur pada latar belakang */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 15px 0 15px 0;
+}
+
+/* hero */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7)
-    ),url(../../assets/img/hero.jpg);
+    ),url(../../assets/img/food.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +41,6 @@
 }
 
 /* about */
-
 .about-1{
     background-color: rgb(226, 226, 226);
 }
