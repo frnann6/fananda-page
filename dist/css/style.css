@@ -58,3 +58,12 @@
 .about-1{
     background-color: rgb(226, 226, 226);
 }
+
+/* products */
+.products{
+    padding: 100px 0 100px 0;
+}
+
+.products img{
+    height: 250px;
+}
