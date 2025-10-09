@@ -59,6 +59,11 @@
     background-color: rgb(226, 226, 226);
 }
 
+.about-2{
+    background-color: #C48900;
+;
+}
+
 /* products */
 .products{
     padding: 100px 0 100px 0;
@@ -66,4 +71,38 @@
 
 .products img{
     height: 250px;
+}
+
+/* services */
+.services{
+    padding: 0 0 100px 0;
+}
+
+.services img{
+    width: 250px;
+    height: 400px;
+}
+
+.services h5{
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.services i{
+    color: green;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1200px){
+    .services img{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .services h5{
+        font-size: 16px;
+    }
 }
