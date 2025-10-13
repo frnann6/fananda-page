@@ -108,6 +108,33 @@
 }
 
 /* FAQ */
-.faq .accordion{
-    padding: 10px;
+.faq .accordion-item{
+    margin: 5px;
+}
+
+.faq .accordion-item button {
+   background-color: #f8f8f8;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.faq .accordion-item button:not(.collapsed){
+      background-color: #d29609;
+  color: white;
+}
+
+/* Footer */
+.footer{
+    min-height: 40vh;
+    background-color: #181B23;
+    margin-top: 150px;
+}
+
+.footer .col{
+    color: white;
+}   
+
+.footer .copyright{
+    padding-top: 50px;
 }
