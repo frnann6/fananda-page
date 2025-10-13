@@ -23,11 +23,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS : Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top animate__animated animate__fadeInDown">
         <div class="container">
             <a class="navbar-brand fw-bold fs-4" href="#">Fananda</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -69,14 +75,21 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <h1 class="text-white fw-bold mb-4">Bersama <span class="text-warning">Fananda</span> <br> Sajikan
+                    <h1 class="text-white fw-bold mb-4 animate__animated animate__fadeInUp animate__delay-1s">Bersama
+                        <span class="text-warning">Fananda</span> <br> Sajikan
                         dan nikmati kelezatan yang tak
-                        terlupakan</h1>
-                    <p class="text-white mb-4 text-opacity-75">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        terlupakan
+                    </h1>
+                    <p class="text-white mb-4 text-opacity-75 animate__animated animate__fadeInUp animate__delay-1s">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Ipsa, corporis!
                     </p>
-                    <button class="btn btn-warning btn-lg rounded-1 me-2">Order now</button>
-                    <button class="btn btn-outline-light btn-lg rounded-1">About Us</button>
+                    <button
+                        class="btn btn-warning btn-lg rounded-1 me-2 animate__animated animate__fadeInLeft animate__delay-1s order">Order
+                        now</button>
+                    <button
+                        class="btn btn-outline-light btn-lg rounded-1 animate__animated animate__fadeInRight animate__delay-1s about">About
+                        Us</button>
                 </div>
             </div>
         </div>
@@ -91,12 +104,14 @@
                     <h2>100+</h2>
                     <h2 class="fw-bold mb-2">Pesanan Selesai</h2>
                     <p>
-                        Kami mengucapkan terima kasih yang mendalam atas dukungan luar biasa <br> dari seluruh pelanggan
+                        Kami mengucapkan terima kasih yang mendalam atas dukungan luar biasa <br> dari seluruh
+                        pelanggan
                         dan
                         Fan
                         People. Fananda dengan bangga mengumumkan <br> telah menyelesaikan 100 pesanan lebih —
                         pencapaian ini
-                        tidak akan mungkin <br> tanpa kepercayaan dan dukungan kalian. Terima kasih telah menjadi bagian
+                        tidak akan mungkin <br> tanpa kepercayaan dan dukungan kalian. Terima kasih telah menjadi
+                        bagian
                         dari <br>
                         perjalanan kami.
                     </p>
@@ -104,7 +119,9 @@
                 <div class="col text-center py-5 text-white about-2">
                     <h2>None</h2>
                     <h2 class="fw-bold mb-2">Unknown</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Placeat et excepturi, dolore
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing
+                        elit. <br>Placeat et excepturi, dolore
                         accusamus
                         animi ratione..</p>
                 </div>
@@ -118,26 +135,27 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col">
-                    <h2 class="border-bottom border-2 pb-2 fw-semibold">Products | Daftar menu<br>dari Fananda</h2>
+                    <h2 class="border-bottom border-2 pb-2 fw-semibold" data-aos="fade-right" data-aos-duration="1000">
+                        Products | Daftar menu<br>dari Fananda</h2>
                 </div>
             </div>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <img src="assets/img/products/produk-1.jpeg" class="w-100 mb-3" alt="fananda-produk">
                     <h4 class="fw-semi-bold">Chocovelvet Bliss</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, sint.</p>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                     <img src="assets/img/products/produk-2.jpeg" class="w-100 mb-3" alt="fananda-produk">
                     <h4 class="fw-semi-bold">Classic Brownies</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, sint.</p>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                     <img src="assets/img/products/produk-3.png" class="w-100 mb-3" alt="fananda-produk">
                     <h4 class="fw-semi-bold">Matcha Latte</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, sint.</p>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src="assets/img/products/produk-4.jpg" class="w-100 mb-3" alt="unsplash.com">
                     <h4 class="fw-semi-bold">Toasted Almond Fudge</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, sint.</p>
@@ -151,21 +169,28 @@
     <div class="services" id="services">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col" data-aos="fade-right" data-aos-duration="1000">
                     <h2 class="fw-semibold border-bottom border-2 pb-2">Layanan<br> yang dapat di berikan</h2>
                 </div>
             </div>
             <div class="row pt-4 align-items-center row-cols-lg-2 row-cols-1">
                 <div class="col d-lg-block d-none">
-                    <img src="assets/img/services/dhevv-1.png" alt="@dhevv">
-                    <img src="assets/img/services/dhevv-2.png" alt="@dhevv">
+                    <img src="assets/img/services/dhevv-1.png" alt="@dhevv" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="400">
+                    <img src="assets/img/services/dhevv-2.png" alt="@dhevv" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="600">
                 </div>
                 <div class="col">
-                    <h5><i class="fa-regular fa-circle-check"></i> Bahan Premium, Rasa Maksimal</h5>
-                    <h5><i class="fa-regular fa-circle-check"></i> Menu Vatiatif dan Inovatif</h5>
-                    <h5><i class="fa-regular fa-circle-check"></i> Pengiriman tepat waktu dan terpercaya</h5>
-                    <h5><i class="fa-regular fa-circle-check"></i> Catering / Event & Corporate Order</h5>
-                    <h5> <i class="fa-regular fa-circle-check"></i> Harga Terjangkau</h5>
+                    <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400"><i
+                            class="fa-regular fa-circle-check"></i> Bahan Premium, Rasa Maksimal</h5>
+                    <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"><i
+                            class="fa-regular fa-circle-check"></i> Menu Vatiatif dan Inovatif</h5>
+                    <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700"><i
+                            class="fa-regular fa-circle-check"></i> Pengiriman tepat waktu dan terpercaya</h5>
+                    <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800"><i
+                            class="fa-regular fa-circle-check"></i> Catering / Event & Corporate Order</h5>
+                    <h5 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"><i
+                            class="fa-regular fa-circle-check"></i> Harga Terjangkau</h5>
                 </div>
             </div>
         </div>
@@ -177,11 +202,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="fw-semi-bold border-bottom border-2 pb-2">Pertanyaan <br> yang biasa di tanyakan</h2>
+                    <h2 class="fw-semi-bold border-bottom border-2 pb-2" data-aos="fade-right" data-aos-duration="1000">
+                        Pertanyaan <br> yang biasa di tanyakan</h2>
                 </div>
             </div>
             <div class="accordion row row-cols-lg-2 row-cols-1 g-3 mt-2" id="accordionExample">
-                <div class="col">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button collapsed fw-semibold" type="button"
@@ -203,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed fw-semibold" type="button"
@@ -225,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed fw-semibold" type="button"
@@ -247,7 +273,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed fw-semibold" type="button"
@@ -269,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed fw-semibold" type="button"
@@ -291,7 +317,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
                             <button class="accordion-button collapsed fw-semibold" type="button"
@@ -359,7 +385,14 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
+    <!-- JS -->
     <script src="dist/js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -138,3 +138,22 @@
 .footer .copyright{
     padding-top: 50px;
 }
+
+/* Animated Style */
+
+/* Hero  */
+.hero h1{
+      --animate-delay: 0.7s;
+}
+
+.hero p{
+    --animate-delay: 1.2s;  
+}
+
+.hero button.order{
+    --animate-delay: 1.6s;
+}
+
+.hero button.about{
+    --animate-delay: 1.7s;
+}
